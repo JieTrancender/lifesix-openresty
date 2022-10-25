@@ -5,7 +5,7 @@ local _M = {version = 0.1}
 
 local function is_empty(s)
     return s == nil or s == '' or s == 'null' or s == 'NULL' or s == ngx.null
-  end
+end
 
 
 function _M.dynamic_redirect()
